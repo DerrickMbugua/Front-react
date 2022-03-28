@@ -1,0 +1,195 @@
+@media screen and (max-width: 650px) {
+    .header-wrapper{
+        padding: 30px;
+        
+    }
+    .header-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .login{
+        margin-left: 40px;
+    }
+    .image-container{
+        padding: 10px;
+        margin-top: -10px;
+    }
+    .events-wrapper-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10%;
+        padding: 10px, 10px;
+        
+    }
+    
+    .events-wrapper{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .events{
+        width: 200px;
+        background-color: white;
+        height: auto;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-left: 20px;
+        
+    }
+    .filter *{
+        margin-top: 40px;
+        margin-left: 10px;
+        height: 30px;
+        border:none;
+        background-color: gainsboro;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .info-container{
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+        
+    }
+    .filter-wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    .info-wrapper{
+        display: flex;
+        padding: 30px;
+        justify-content: space-between;
+    }
+    .info-wrapper > *{
+        margin-left: 10px;
+        width: 300px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: larger;
+    }
+    .choice-options{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        
+    }
+    .choice-options > div{
+        margin-left: 10px;
+        width: 200px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        
+    }
+    .story-container{
+        display: flex;
+    }
+    .story-container >*{
+        width: 300px;
+    }
+    
+}
+@media screen and (min-width: 650px) {
+    .header-wrapper{
+        padding: 30px;
+    }
+    .header-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .login{
+        margin-left: 40px;
+    }
+    .image-container{
+        padding: 20px;
+        margin-top: -10px;
+        
+    }
+    .events-wrapper-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 8%;
+        
+    }
+    
+    .events-wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    .events{
+        width: 300px;
+        background-color: white;
+        height: auto;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-left: 20px;
+        
+    }
+    .filter *{
+        margin-top: 40px;
+        margin-left: 10px;
+        height: 30px;
+        border:none;
+        background-color: gainsboro;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .filter-wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    .info-wrapper{
+        display: flex;
+        padding: 30px;
+        margin-left: 50px;
+       
+    }
+    .info-wrapper > *{
+        margin-left: 10px;
+        width: 400px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        font-size:large;
+    }
+    .choice-options{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        
+    }
+    .choice-options > div{
+        margin-left: 10px;
+        width: 500px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        
+    }
+    .story-container{
+        display: flex;
+        margin-left: 10%;
+        padding: 30px;
+    }
+    .story-container >*{
+        width: 400px;
+    }
+
+}
+#center{
+    text-align: center;
+}
+.story-details{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.info-container{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+#storyset{
+    background-color: rgb(246, 252, 252);
+    border-radius: 80% 40% 50% 70%;
+}
+#small{
+    font-size: smaller;
+}
+.moreDetails{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}

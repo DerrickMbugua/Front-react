@@ -1,0 +1,32 @@
+.footer-wrapper{
+
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 0;
+    height: 250px;
+}
+#form{
+    text-align: center;
+    color:#1D2671;
+    font-size: 6vh;
+    margin-top: 10px;
+}
+.social-wrapper{
+    width: 50%;
+    padding-left: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+}
+.social-wrapper > *{
+
+    border-style: groove;
+    border-radius: 20%;
+    margin: 10px 10px;
+    border-color: #C33764 ;
+}
+.content-wrapper{
+    font-size: small;
+    text-align: center;
+}
